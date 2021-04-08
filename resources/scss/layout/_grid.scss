@@ -1,0 +1,31 @@
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-alt{
+    max-width: 1056px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @include tablet{
+        flex-direction: column;
+    }
+}
+.col-1-o-3{
+    flex-basis: calc((100% - 2*(#{$gutter-v-l}))/3);
+    @include tablet{
+        flex-basis: auto; 
+    }
+}
+.col-1-o-2{
+    flex-basis: calc((100% -(#{$gutter-v-m}))/2);
+}
+.txt-hold{
+    text-align: center;
+    margin-bottom: 62px;
+}
+

@@ -1,0 +1,214 @@
+.opportunities-wrapper{
+    @include tablet{
+        padding-top: 40px;
+    }
+    .container-alt{
+        padding-bottom: 104px;
+        border-bottom: 2px solid #f7f7f7;
+        @include tablet{
+            padding-bottom: 50px;
+        }
+    }
+}
+.opportunities-item{
+    padding: 40px 20px;
+    box-shadow: -1px 13px 20px 0 #f0f2f4;
+    border-radius: 5px;
+    @include tablet{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .img-hold{
+        height: 64px;
+        margin-bottom: 21px;
+    }
+    .desc{
+        @include tablet{
+            text-align: left;
+        }
+    }
+}
+.green-box{
+    background-color: $brand-color;
+    box-shadow: 0 25px 25px 0 rgba(118, 196, 125, 0.32);
+    .head-3{
+        color: white;
+    }
+    .desc{
+        color: $white-shade;
+        
+    }
+
+}
+.invest-wrapper{
+    padding: 82px 0 117px 0;
+    @include mobile{
+        padding: 40px 0;
+    }
+    .invest-item{
+        padding: 40px 50px 55px 50px;
+        border-radius: 5px;
+        position: relative;
+        z-index: 2;
+        @include tablet{
+            margin-bottom: 30px;
+        }
+        @include mobile{
+            padding: 40px;
+        }
+        hr{
+            width: 56px;
+            height: 4px;
+            border-radius: 2px;
+            background-color: white;
+            margin: 0 0 61px 0;
+            @include mobile{
+                margin: 0 0 30px 0;
+            }
+        }
+        .desc{
+            color: $white-shade;
+        }
+        &::after{
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: linear-gradient(to bottom, rgba(97, 118, 127, 0), #324148);
+            z-index: -1;
+        }
+
+    }
+    .item-1{
+        background: url("../dist/min-img/farm-1.webp")  no-repeat;
+        background-size: cover;
+    }
+    .item-2{
+        background: url("../dist/min-img/farm-2.webp") no-repeat;
+        background-size: cover;
+        @include mobile{
+            background-position: top;
+        }
+    }
+    .txt-hold{
+        text-align: left;
+        width: 65%;
+        margin-right: auto;
+        @include tablet{
+            width: 100%;
+        }
+    }
+    .head-3{
+        color: white;
+        font-size: 31px;
+        @include mobile{
+            font-size: 18px;
+        }
+    }
+    
+    .button-solid{
+        color: $brand-color;
+        background-color: white;
+    }
+}
+.working-item{
+    background : url("../dist/min-img/solid-bg.png") no-repeat;
+    background-size: cover;
+    padding: 106px 0 143px 0;
+    text-align: center;
+    @include tablet{
+        padding: 80px 0 80px 0;
+    }
+    .head-2{
+        color: white;
+    }
+    .desc{
+        color: $white-shade;
+    }
+    .row{
+        text-align: left;
+        .desc{
+            font-size: 16px;
+        }
+        .head-3{
+            font-size: 24px;
+            color: white;
+        }
+        .col-1-0-2{
+            flex-basis: 40%;
+            margin-right: 55px;
+            @include tablet{
+                margin-right: 0;
+                margin-bottom: 20px;
+
+            }
+            @include mobile{ 
+                margin-bottom: 15px;
+            }
+        }
+        .col-lg{
+            flex-grow: 2;
+            margin: 0;
+        }
+    }
+}
+.testimonial-wrapper{
+    padding: 216px 0 117px 0;
+    @include tablet{
+        padding: 100px 0;
+    }
+    @include mobile{
+        padding: 70px 0;
+    }
+    .txt-hold{
+        text-align: left;
+        position: relative;
+    }
+    .container-alt{
+        position: relative;
+    }
+    .quote{
+        width: 70px;
+        height: 95px;
+        background-color: rgba(102, 187, 106, 0.25);
+        border-radius: 5px 5px 0 5px;
+        position: relative;
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .quote::after{
+        content: " ";
+        position: absolute;
+        bottom: -29.5px;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-top: 30px solid rgba(102, 187, 106, 0.25);;
+        border-right: 35px solid transparent;
+        
+      }
+      .head-2{
+          position: absolute;
+          top: 0;
+      }
+}
+.invest-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+    border-radius: 5px;
+    box-shadow: -1px 25px 20px 0 #f2f2f2;
+    span{
+        color: $brand-color;
+    }
+    .head-2{
+        padding: 0 10px;
+        text-align: center;
+    }
+    
+}
+

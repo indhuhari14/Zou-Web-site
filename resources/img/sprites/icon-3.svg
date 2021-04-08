@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="58" viewBox="0 0 77 58">
+    <g fill="none" id="icon-3" fill-rule="evenodd">
+        <path fill="#66BB6A" d="M54.556 47H57V12.777h-2.444z"/>
+        <path fill="#66BB6A" d="M75.262 7.053H63.844a8.713 8.713 0 0 0-8.713 8.713v3.365h.067c.343-4.498 4.06-8.053 8.646-8.053h11.35c.018-.221.068-.434.068-.661V7.053z"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M75.262 7.053H63.844a8.713 8.713 0 0 0-8.713 8.713v3.365h.067c.343-4.498 4.06-8.053 8.646-8.053h11.35c.018-.221.068-.434.068-.661V7.053z"/>
+        <path fill="#66BB6A" d="M55.197 19.13h11.351c4.586 0 8.302-3.554 8.646-8.052h-11.35c-4.585 0-8.303 3.555-8.647 8.053"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M55.197 19.13h11.351c4.586 0 8.302-3.554 8.646-8.052h-11.35c-4.585 0-8.303 3.555-8.647 8.053z"/>
+        <path fill="#66BB6A" d="M55.13 13.078H43.715A8.714 8.714 0 0 1 35 4.365V1h.067c.343 4.498 4.06 8.053 8.647 8.053h11.35c.017.221.067.434.067.661v3.364z"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M55.13 13.078H43.715A8.714 8.714 0 0 1 35 4.365V1h.067c.343 4.498 4.06 8.053 8.647 8.053h11.35c.017.221.067.434.067.661v3.364z"/>
+        <path fill="#66BB6A" d="M35.067 1h11.35c4.586 0 8.303 3.555 8.647 8.053H43.713c-4.585 0-8.303-3.555-8.646-8.053"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M35.067 1h11.35c4.586 0 8.303 3.555 8.647 8.053H43.713c-4.585 0-8.303-3.555-8.646-8.053z"/>
+        <path fill="#66BB6A" d="M57.363 36.324a5.707 5.707 0 0 0-5-5.664l-15.157-1.895L1 57h28l8.206-10.598"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M57.363 36.324a5.707 5.707 0 0 0-5-5.664l-12.99-1.624a5.259 5.259 0 0 0-3.888 1.071L1 57"/>
+        <path fill="#66BB6A" d="M66.977 28.766l-4.133.49a3.77 3.77 0 0 0-1.505.518l-4.758 2.874V39H61l5.977-10.234z"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M66.977 28.766l-4.133.49a3.77 3.77 0 0 0-1.505.518l-4.758 2.874V39H61l5.977-10.234z"/>
+        <path fill="#66BB6A" d="M44.765 36.324h15.118l8.647-8.648a2.807 2.807 0 0 1 3.24-.526L75 28.765 59.883 46.402H37.206L29 57"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M44.765 36.324h15.118l8.647-8.648a2.807 2.807 0 0 1 3.24-.526L75 28.765 59.883 46.402H37.206L29 57"/>
+    </g>
+</svg>

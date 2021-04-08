@@ -1,0 +1,107 @@
+.swiper-container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    .swiper-slide{
+        width: 408px;
+        height: auto;
+        box-shadow: -1px 13px 20px 0 #f0f2f4;
+        background-color: white;
+        padding: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        img{
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .slider-head{
+            display: flex;
+            align-items: center;
+            margin-bottom: 27px;
+            .head-5 span{
+                color: $brand-color;
+            }
+        }
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        display: block;
+        width: 250px;
+        z-index: 10;
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0), white 61%);
+        @include laptop{
+            display: none;
+        }
+
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        width: 250px;
+        z-index: 10;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), white 61%);
+        @include laptop{
+            display: none;
+        }
+
+    }
+}
+
+.swiper-button{
+    color: $brand-color;
+    bottom: 0;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    color: #8aa1ac;
+    box-shadow: -1px 13px 20px 0 #f0f2f4;
+    transition: all 0.3s;
+    @include tablet-small{
+        width: 40px;
+        height: 40px;
+    }
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        background-color: $brand-color;
+        color: white;
+        box-shadow: 0 25px 25px 0 rgba(118, 196, 125, 0.32);
+    }
+}
+.swiper-button-next{
+    top: unset;
+    left: 80px;
+    @include tablet-small{
+        left: 60px;
+    }
+    &::after{
+        font-size: 28px;
+        @include tablet-small{
+            font-size: 14px;
+        }
+    }
+   
+}
+.swiper-button-prev{
+    top: unset;
+    left: 0;
+    &::after{
+        font-size: 28px;
+        @include tablet-small{
+            font-size: 14px;
+        }
+    }
+}
+.container-fill{
+    padding: 50px;
+}

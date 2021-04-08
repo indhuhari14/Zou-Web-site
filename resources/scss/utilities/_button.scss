@@ -1,0 +1,29 @@
+.button-solid{
+    padding: 14px 22px;
+    color: white;
+    background-color: $brand-color;
+    border-radius: 5px;
+    &:hover{
+        transition: all 0.3s;
+        box-shadow: 0 13px 20px 0 rgba(118, 196, 125, 0.41);
+    }
+}
+.button-solid-l{
+    padding: 14px 80px;
+    @include mobile{
+        padding: 14px 30px;
+    }
+}
+.nav-button{
+    padding: 12px 23px;
+    color: #f1f8e9;
+    border: 1px solid #f1f8e9;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all .3s;
+    &:hover{
+        
+        box-shadow: 0 8px 8px 0 #ccc;
+    }
+    
+}
